@@ -698,6 +698,30 @@
                     "path": "/dev/block/platform/soc.0/f9824900.sdhci/by-name/cache"
                 }
             ]
+        },
+        {
+            "names": [ "FP2" ],
+            "manifest_url": "https://raw.githubusercontent.com/z3ntu/multirom_fairphone_fp2/master/manifest.json",
+            "check_gpg": false,
+            "ubuntu_touch": {
+                "enabled": true,
+                "base_url": "http://system-image.ubports.com",
+                "device": "FP2"
+            },
+            "devices": [
+                {
+                    "name": "recovery",
+                    "path": "/dev/block/platform/msm_sdcc.1/by-name/recovery"
+                },
+                {
+                    "name": "boot",
+                    "path": "/dev/block/platform/msm_sdcc.1/by-name/boot"
+                },
+                {
+                    "name": "cache",
+                    "path": "/dev/block/platform/msm_sdcc.1/by-name/cache"
+                }
+            ]
         }
     ]
 }
